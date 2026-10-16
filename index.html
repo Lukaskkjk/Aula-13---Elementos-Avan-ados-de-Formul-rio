@@ -1,0 +1,52 @@
+
+<!--
+Descricao: Aula 13 - Elementos Avancados de Formulario
+nome_arquivo: index.html
+nome_exercicio: Aula 13 - Elementos Avancados de Formulario
+nome_aluno: Lucas Samoel Bento de Farias
+email_aluno: lucas.farias5@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login NortShop</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <main>
+        <form id="formLogin">
+            <h1>Login NortShop</h1>
+
+            <div class="login">
+                <label for="emailLogin">Usuário</label>
+                <input type="email" id="emailLogin" name="email"
+                    placeholder="Digite seu e-mail" required>
+            </div>
+
+            <div class="login">
+                <label for="senhaLogin">Senha</label>
+                <input type="password" id="senhaLogin" name="senha"
+                    placeholder="Digite sua senha" required>
+            </div>
+
+            <div class="esquecisenha">
+                <label>
+                    <input type="checkbox" name="lembrar">
+                    Lembrar minha senha
+                </label>
+                <a href="#" id="esqueciSenha">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <div class="registrar-se">
+                <p>Não tem conta? <a href="cadastro.html">Cadastrar-se</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
